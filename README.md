@@ -48,8 +48,47 @@ Use meaningful text inside the table for clarity.
 
 Keep the table design strictly in HTML for simplicity.
 ## HTML Code:
-
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Table</title>
+</head>
+<body>
+    <table cellspacing="5" cellpadding="5" border="3" bgcolor="lightpink">
+        <caption>Product Details</caption>
+        <thead bgcolor="Grey">
+            <tr>
+                <th>Product Name</th>
+                <th>Product Price</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Moisturizer</td>
+                <td>800</td>
+                <td>Hydrates and softens skin</td>
+            </tr>
+            <tr>
+                <td>Sunscreen</td>
+                <td>600</td>
+                <td>Protects from UV rays</td>
+            </tr>
+            <tr>
+                <td>Face Serum</td>
+                <td>1200</td>
+                <td>Brightens and nourishes skin</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+```
 ## Output:
+![Screenshot (62)](https://github.com/user-attachments/assets/d656a10e-888b-4e7a-bd8f-b94c05210049)
 
 ## Result:
 A structured HTML table that displays product-related information, including product names, prices, and descriptions, useful for catalogs, listings, or e-commerce prototypes is created successfully.
